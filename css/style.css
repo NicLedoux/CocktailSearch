@@ -1,0 +1,69 @@
+/******************************************
+/* CSS
+/*******************************************/
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+main {
+  margin: 0 auto;
+  max-width: 750px;
+  width: 100%;
+  border: 2px solid black;
+
+}
+
+
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-height: 560px;
+}
+
+.iframe {
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+a {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+h1 {
+  margin: auto;
+  align-items: center;
+}
+
+h2 {
+  margin: 0 auto;
+}
+
+h3 {
+  margin: 0 auto;
+}
