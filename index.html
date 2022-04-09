@@ -14,18 +14,33 @@
   <body>
     <main>
       <section>
-        <h4>Work in Process</h4>
-        <h1>Search for a Cocktail</h1>
-        <input type="text" id="cocktailSearch" name="cocktailSearch" value="" />
-        <button type="submit" name="button">Get Cocktail</button>
+        <h1>Cocktail Recipes</h1>
+        <h4>Search for your favorite cocktail.</h4>
+        <div id="input">
+          <input
+            type="text"
+            id="cocktailSearch"
+            name="cocktailSearch"
+            placeholder="Cocktail"
+            value=""
+          />
+          <button type="submit" name="button">Search</button>
+        </div>
       </section>
       <section>
-        <h2 class="hidden">Name</h2>
+        <h2 class="hidden"></h2>
+        <h5 class="hidden"></h5>
+        <a href="#" class="hidden">Next</a>
         <img class="hidden" src="" alt="" />
-        <h3 class="hidden">Instructions</h3>
 
+        <h3 class="hidden ingredients">Ingredients</h3>
+        <div id="list"></div>
+        <h3 class="hidden instructions">Instructions</h3>
+        <p class="hidden"></p>
+
+        <h3 class="hidden video">Video</h3>
         <iframe
-          class="iframe"
+          class="iframe hidden"
           width="560"
           height="315"
           src=""
@@ -34,7 +49,6 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
-        <a href="#" class="hidden">Next</a>
       </section>
     </main>
     <script type="text/javascript" src="js/main.js"></script>
